@@ -4,13 +4,14 @@
     padding: 0;
 }
 
-.promo .contanier {
+.container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
-    height: 800px;
 }
 
 .promo {
+    min-height: 800px;
     background: url('../img/bg/bg_handsOfAMan.jpg') center center/cover no-repeat;
     padding: 36px 0 62px 0;
 }
@@ -116,7 +117,7 @@ h2.title {
 }
 
 .waiting {
-    height: 607px;
+    min-height: 607px;
     background: #EFEFEF;
     padding: 85px 0 75px 0;
 }
@@ -151,16 +152,15 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-around;
     margin-top: 45px;
-    text-align: center;
 }
 
 .waiting .waiting_wrapper .waiting_item{
-    display: inline-block;
-    vertical-align: top;
     width: 340px;
     text-align: center;
-    margin: 0 15px;
+
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img{
@@ -174,7 +174,46 @@ h2.title {
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    /* line-height: 21px; */
+}
 
+.optimisation {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimisation .optimisation_header {
+    margin-left: 391px;
+    /* margin-left: 391px; */
+
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* font-style: normal; */
+    /* line-height: 12px; */
 
 }
+
+.optimisation .optimisation_text {
+    /* padding-top: 11px; */
+    margin-top: 25px;
+    margin-left: 391px;
+    width: 780px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.optimisation .optimisation_text span {
+    font-weight: 700;
+    font-family: "Roboto-Bold";
+ }
+
+ .optimisation .optimisation_img {
+    position: absolute;
+    top: -50px;
+    left: -240px;
+    z-index: -1;
+ }
