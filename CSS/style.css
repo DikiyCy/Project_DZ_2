@@ -16,7 +16,7 @@
     padding: 36px 0 62px 0;
 }
 
-.logo .logo_img {
+.logo .logo_img, .gift .gift_icon .gift_img {
     display: block;
     margin: 0 auto;
 
@@ -76,7 +76,7 @@ h2.title {
     font-weight: bold;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -122,17 +122,16 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
-    /* line-height: 12px; */
     text-align: center;
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider, .finish .finish_divider {
     width: 220px;
     height: 4px;
     background: #F9BF3B;
@@ -147,13 +146,12 @@ h2.title {
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
-    /* line-height: 20px; */
     text-align: center;
 }
 
 .waiting .waiting_wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
@@ -183,20 +181,15 @@ h2.title {
 
 .optimisation .optimisation_header {
     margin-left: 391px;
-    /* margin-left: 391px; */
-
     color: #299CBD;
     font-family: Roboto;
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
-    /* font-style: normal; */
-    /* line-height: 12px; */
-
 }
 
 .optimisation .optimisation_text {
-    /* padding-top: 11px; */
+
     margin-top: 25px;
     margin-left: 391px;
     width: 780px;
@@ -217,3 +210,115 @@ h2.title {
     left: -240px;
     z-index: -1;
  }
+
+ .finish {
+     min-height: 447px;
+     padding: 86px 0 79px 0;
+     background: url('../img/bg/bf_notebook.jpg') center center/cover no-repeat;
+ }
+
+ .finish .finish_header {
+     color: #ffffff;
+ }
+
+ .finish .finish_wrapper {
+     margin-top: 41px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .finish .finish_wrapper .finish_item {
+    width: 204px;
+
+ }
+
+ .finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 100%;
+ }
+
+ .finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    color: #EFEFEF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+ }
+
+ .gift {
+    min-height: 631px;
+    background-color: #efefef;
+    padding: 85px 0 88px 0;
+ }
+
+
+ .gift .gift_descr {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 42px;
+ }
+
+ .lesson1 {
+     min-height: 512px;
+     padding: 88px 0 60px 0;
+ }
+
+.lesson1 .descr1 {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 41px;
+}
+
+.lesson1 .descr2 {
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.lesson1 .descr3 {
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+footer {
+    min-height: 169px;
+    background: #1a1a1a;
+    padding: 60px 0 73px 0;
+}
+
+footer .container a {
+    /* text-decoration: none; */
+
+}
+
+footer .container, footer .container a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+font-style: normal;
+font-weight: 300;
+
+text-align: center;
+
+
+}
