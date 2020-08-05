@@ -1,2 +1,4 @@
-# Project_DZ_2
-Домашняя работа 2 (разработка сайтов)
+# Project_first_lending page
+
+https://dikiycy.github.io/Project_DZ_2/
+
